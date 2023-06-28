@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+.navbar-left ul li {
+    font-size: 30px;
+}
+
 img{
     max-width: 100%;
 }
@@ -57,7 +61,7 @@ header {
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: relative;
     padding: 35px 0 0 0 ;
     align-items: center;
@@ -88,7 +92,6 @@ nav{
 .header-list-one{
     position: relative;
     margin-top: 62px;
-    max-width: 335px;
 }
 
 .header-list-one h1{
@@ -97,7 +100,6 @@ nav{
     font-size: 36px;
     font-weight: 800;
     line-height: 57.5px;
-    margin: 0 auto;
 }
 
 .header-list-one h3{
@@ -607,9 +609,11 @@ footer{
         line-height: 20px;
     }
 
-    .header-list-one{
-        max-width: 665px;
+    nav{
+        display: flex;
+        justify-content: space-between;
     }
+
 
     .header-list-one h1{
         color: #000;
@@ -728,6 +732,7 @@ footer{
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
+        padding: 0 0 0 30px;
     }
 
     .icon-one{
@@ -776,6 +781,8 @@ footer{
     .nem{
         max-width: 428px;
     }
+
+    600
 
     .nem h2{
         font-size: 58px;
@@ -891,6 +898,8 @@ footer{
         margin-bottom: 20px;
     }
 
+    .contener
+
     .contact h4{
         color: #000;
         text-align: center;
@@ -993,6 +1002,7 @@ footer{
         width: 32px;
         height: 32px;
     }
+
 }
 
 @media screen and (max-width:700px){
@@ -1002,6 +1012,11 @@ footer{
 
     .navbar-left{
         display: inline-block;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
     }
 
 }
@@ -1095,6 +1110,6 @@ footer{
 
 @media screen and (max-width:600px) {
     .contener{
-        padding: 60px;
+        padding: 0 60px 0 60px;
     }
 }
